@@ -119,6 +119,10 @@ input {
   outline: none;
 }
 
+.main {
+  overflow-x: hidden;
+}
+
 /*======== THEME ========*/
 /*======== VARIABLE DARK THEME ========*/
 body.dark-theme {
