@@ -88,3 +88,20 @@
 .scroll-header .nav__toggle {
   color: var(--title-color);
 }
+
+/* Active Link */
+.active-link {
+  position: relative;
+  color: var(--title-color);
+}
+
+// ? membuat garis dibawah nav menu
+.active-link::before {
+  content: "";
+  position: absolute;
+  background-color: var(--title-color);
+  width: 100%;
+  height: 2px;
+  bottom: -0.75rem;
+  left: 0;
+}
