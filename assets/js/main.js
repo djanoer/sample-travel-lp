@@ -113,7 +113,7 @@ function scrollActive() {
 }
 window.addEventListener("scroll", scrollActive);
 
-/*======= DARK LIGHT THEME ========*/
+/*========== DARK LIGHT THEME ==========*/
 const themeButton = document.getElementById("theme-button"); //? nama class sesuai id pada nav dark index.html
 const darkTheme = "dark-theme"; //? nama class sesuai yg ada di _theme.scss
 const iconTheme = "ri-sun-line"; //? icon remixicon.com
@@ -142,3 +142,5 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+/*========== SCROLL REVEAL ANIMATION ==========*/
